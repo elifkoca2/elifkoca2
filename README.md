@@ -19,3 +19,7 @@
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=elifkoca2&show_icons=true&locale=en&layout=compact" alt="elifkoca2" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=elifkoca2&" alt="elifkoca2" /></p>
+
+
+
+![snake gif](https://github.com/elifkoca2/elifkoca2/blob/output/github-contribution-grid-snake.gif)
