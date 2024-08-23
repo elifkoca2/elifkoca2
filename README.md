@@ -1,4 +1,6 @@
-![MasterHead](https://i.pinimg.com/564x/47/84/d5/4784d5984d7397871bc98714c07865c6.jpg)
+<div align="center">
+  <img src="https://i.pinimg.com/564x/ac/6f/b4/ac6fb4dd9c78105d2fe67b3409556ac9.jpg" alt="MasterHead" style="width: 100%; height: 80vh; object-fit: cover;">
+</div>
 <h1 align="center">Hi 👋, I'm Elif Koca</h1>
 <h3 align="center">I'm Computer Engineer and .NET Developer 👋</h3>
 
