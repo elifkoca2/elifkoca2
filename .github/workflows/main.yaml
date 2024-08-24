@@ -1,18 +1,19 @@
 name: generate animation
 
 on:
-  # her 24 saatte bir otomatik olarak çalıştırılır
+  # run automatically every 24 hours
   schedule:
     - cron: "0 */24 * * *" 
   
-  # iş akışını manuel olarak çalıştırmanıza izin verir
+  # allows to manually run the job at any time
   workflow_dispatch:
   
-  # master branch'ine her push işleminde çalıştırılır
+  # run on every push on the master branch
   push:
     branches:
     - master
     
+  
 
 jobs:
   generate:
@@ -20,7 +21,7 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      # bir github kullanıcısının katkı grafiğinden bir yılan oyunu oluşturur, bir svg animasyonu olarak dışa aktarır
+      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -32,8 +33,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
           
-      # <build_dir> içeriğini bir branch'e gönderir
-      # içerik https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> adresinde veya bir github sayfası olarak kullanılabilir
+      # push the content of <build_dir> to a branch
+      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
