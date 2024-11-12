@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.pinimg.com/564x/ac/6f/b4/ac6fb4dd9c78105d2fe67b3409556ac9.jpg" alt="MasterHead" style="width: 100%; height: 80vh; object-fit: cover;">
+  <img src="https://github.com/user-attachments/assets/f72d09b8-e4b2-4c2e-a79e-246121c18144" alt="MasterHead" style="width: 80%; height: 70vh; object-fit: cover;">
 </div>
 <h1 align="center">Hi 👋, I'm Elif Koca</h1>
 <h3 align="center">I'm Computer Engineer and .NET Developer 👋</h3>
